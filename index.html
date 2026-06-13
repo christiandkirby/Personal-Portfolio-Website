@@ -1,100 +1,271 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html>
-	<head>
-		<title>Modern Personal Portfolio | Christian Kirby</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Modern Personal Portfolio | Christian Kirby</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper" class="divided">
+      <!-- One -->
+      <section
+        class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+      >
+        <div class="content">
+          <h1>Hi! I'm Christian</h1>
+          <p class="major">
+            I'm a Computer Science student at Duke University, focusing on AI
+            and Machine Learning. Passionate about software engineering and AI,
+            I'm eager to transform innovative ideas into impactful solutions.
+            Explore my journey as I dive into the world of SWE and AI
+            engineering!
+          </p>
+          <ul class="actions stacked">
+            <li>
+              <a href="#first" class="button big wide smooth-scroll-middle"
+                >Get Started</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="image">
+          <img src="images/CK PFP copy.JPG" alt="" />
+        </div>
+      </section>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="divided">
+      <!-- UNO Project -->
+      <section
+        class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+        id="first"
+      >
+        <div class="content">
+          <h2>Python UNO Game</h2>
+          <p>
+            A fully playable multiplayer UNO game built from the ground up.
+            Features a <strong>Python</strong> game engine with complete rule
+            implementation — action cards, wild cards, Draw Two/Four, Skip, and
+            Reverse. The <strong>Flask</strong> backend serves a
+            <strong>JavaScript</strong> frontend with real-time game state
+            updates, a color picker modal, UNO button with penalty logic, and a
+            synthwave-themed UI built with <strong>HTML</strong> and
+            <strong>CSS</strong>.
+          </p>
+          <ul class="actions">
+            <li>
+              <a href="https://python-uno-game.onrender.com/" class="button"
+                >Live Demo</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/christiandkirby/Python-UNO-Game"
+                class="button wide"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="image">
+          <img
+            src="images/UNO Project Thumbnail.png"
+            alt="UNO Project Thumbnail"
+          />
+        </div>
+      </section>
 
-				<!-- One -->
-					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
-						<div class="content">
-							<h1>Hi! I'm Christian</h1>
-							<p class="major">I'm a Computer Science student at Duke University, focusing on AI and Machine Learning. Passionate about software engineering and AI, I'm eager to transform innovative ideas into impactful solutions. Explore my journey as I dive into the world of SWE and AI engineering!</p>
-							<ul class="actions stacked">
-								<li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/CK PFP copy.JPG" alt="" />
-						</div>
-					</section>
+      <!-- Music Genre Prediction Project -->
+      <section
+        class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+      >
+        <div class="content">
+          <h2>Music Genre Prediction Model</h2>
+          <p>
+            A machine learning project built in <strong>Python</strong> that
+            classifies audio files into music genres. Trained on the
+            <strong>FMA-Medium dataset</strong> of 25,000 audio clips using
+            <strong>MFCC and Chroma feature extraction</strong> to convert audio
+            into numerical representations. Implemented and compared a
+            <strong>Logistic Regression</strong> baseline against a
+            <strong>Support Vector Machine (SVM)</strong> model, with the SVM
+            significantly outperforming the linear model on high-dimensional
+            audio features.
+          </p>
+          <ul class="actions">
+            <li>
+              <a
+                href="https://github.com/Kaijing-Zheng/MusicGenrePrediction"
+                class="button"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="image">
+          <img
+            src="images/Music Genre Prediction Results.png"
+            alt="Music Genre Prediction Thumbnail"
+          />
+        </div>
+      </section>
 
-				<!-- Two -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
-						<div class="content">
-							<h2>Colorful Portfolio Website</h2>
-							<p>This is my first portfolio website using only <strong>HTML</strong> and <strong>CSS</strong>. I used a Youtube tutorial to help sharpen my nesting skills in HTML and learn more complex CSS to achieve more complex website styling. </p>
-							<ul class="actions stacked">
-								<li><a href="https://colorful-portfolio-website.vercel.app/" class="button">Learn More</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/Colorful Portfolio Thumbnail.jpg" alt="Colorful Portfolio Thumbnail" />
-						</div>
-					</section>
+      <!-- StarScribe -->
+      <section
+        class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+        id="first"
+      >
+        <div class="content">
+          <h2>StarScribe</h2>
+          <p>
+            A browser-based transcription and translation app that lets users
+            record or upload audio, transcribe it using
+            <strong>Whisper.cpp</strong>, and translate the output into multiple
+            languages — all without an API key. Built with
+            <strong>React</strong>, <strong>Tailwind CSS</strong>, and
+            <strong>Vite</strong>.
+          </p>
+          <ul class="actions">
+            <li>
+              <a href="https://star-scribe.vercel.app/" class="button"
+                >Live Demo</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/christiandkirby/StarScribe"
+                class="button wide"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="image">
+          <img
+            src="images/StarScribeThumbnail.jpg"
+            alt="StarScribe Thumbnail"
+          />
+        </div>
+      </section>
 
-					<!-- Three -->
-					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-						<div class="content">
-							<h2>Weather App</h2>
-							<p>This Weather Application was created using <strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong>. I also utilized the <strong>OpenWeatherMap API</strong> to aid in the data collection for the app to display. I watched a youtube video to help with the structuring and learn how web development tools work together. </p>
-							<ul class="actions stacked">
-								<li><a href="https://weather-app-eta-flame-72.vercel.app/" class="button">Learn More</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/Weather App Thumbnail.jpg" alt="Weather App Thumbnail Photo" />
-						</div>
-					</section>
+      <!-- Weather App -->
+      <section
+        class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+      >
+        <div class="content">
+          <h2>Weather App</h2>
+          <p>
+            A weather application that displays real-time conditions and
+            forecasts for any location. Built with <strong>HTML</strong>,
+            <strong>CSS</strong>, and <strong>JavaScript</strong>, integrating
+            the <strong>OpenWeatherMap API</strong> for live weather data.
+          </p>
+          <ul class="actions">
+            <li>
+              <a
+                href="https://weather-app-eta-flame-72.vercel.app/"
+                class="button"
+                >Live Demo</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/christiandkirby/WeatherApp"
+                class="button wide"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="image">
+          <img
+            src="images/Weather App Thumbnail.jpg"
+            alt="Weather App Thumbnail"
+          />
+        </div>
+      </section>
 
-				<!-- Four -->
-					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
-						<div class="content">
-							<h2>StarScribe</h2>
-							<p>StarScribe is a browser-based app that lets users record or upload audio, transcribe it using <strong>Whisper.cpp</strong>, and translate the text into multiple languages—all without an API key.
-							I used <strong>ReactJS</strong>, <strong>Tailwind CSS</strong>, and <strong>Vite</strong> for my tech stack.</p>
-								<li><a href="https://star-scribe.vercel.app/" class="button">Learn More</a></li>
-							</ul>
-						</div>
-						<div class="image">
-							<img src="images/StarScribeThumbnail.jpg" alt="Star Scribe Thumbnail" />
-						</div>
-					</section>
+      <!-- Colorful Portfolio Website -->
+      <section
+        class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+      >
+        <div class="content">
+          <h2>Colorful Portfolio Website</h2>
+          <p>
+            My first portfolio website built from scratch using only
+            <strong>HTML</strong> and <strong>CSS</strong>. Focused on
+            developing strong fundamentals in semantic HTML structure and
+            advanced CSS styling techniques.
+          </p>
+          <ul class="actions">
+            <li>
+              <a
+                href="https://colorful-portfolio-website.vercel.app/"
+                class="button"
+                >Live Demo</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/christiandkirby/Colorful-Portfolio-Website"
+                class="button wide"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="image">
+          <img
+            src="images/Colorful Portfolio Thumbnail.jpg"
+            alt="Colorful Portfolio Thumbnail"
+          />
+        </div>
+      </section>
 
-				<!-- Footer -->
-					<footer class="wrapper style1 align-center">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="https://drive.google.com/file/d/1BKf4QnSAeR_rufmJIFaW4VdapahI4_Bm/view?usp=sharing" class="icon fas style2 fa-file"><span class="label">Resume</span></a></li>
-								<li><a href="https://github.com/christiandkirby" class="icon brands style2 fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://www.linkedin.com/in/christian-kirby-0312b9210/" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<p>&copy; 2026 Christian Kirby </p>
-						</div>
-					</footer>
+      <!-- Footer -->
+      <footer class="wrapper style1 align-center">
+        <div class="inner">
+          <ul class="icons">
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1BKf4QnSAeR_rufmJIFaW4VdapahI4_Bm/view?usp=sharing"
+                class="icon fas style2 fa-file"
+                ><span class="label">Resume</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/christiandkirby"
+                class="icon brands style2 fa-github"
+                ><span class="label">Github</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/christian-kirby-0312b9210/"
+                class="icon brands style2 fa-linkedin-in"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
+          </ul>
+          <p>&copy; 2026 Christian Kirby</p>
+        </div>
+      </footer>
+    </div>
 
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
-
-
-
-
-
